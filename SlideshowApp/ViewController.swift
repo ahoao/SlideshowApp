@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         //初期画面
         //バンドルした画像ファイルを読み込み
         //Image Viewに画像を設定
-        let selectedImage = UIImage(named: "cat1")
+        let selectedImage = UIImage(named: "cat1.jpg")
         imageView.image = selectedImage
     }
     
@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     var displayImageNo = 0
     
     // 画像の名前の配列
-    var imageNameArray = ["cat1", "cat2", "cat3", "cat4", "cat5"]
+    var imageNameArray = ["cat1.jpg", "cat2.jpg", "cat3.jpg", "cat4.jpg", "cat5.jpg"]
     
     // 表示している画像の番号を元に画像を表示する
     func displayImage() {
